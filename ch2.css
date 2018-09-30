@@ -1,0 +1,22 @@
+body {background-color: red;}
+
+ul{
+  color:green;
+  font-style: italic
+}
+
+li::before {
+  content: "•";
+    color: green;
+    font-style: italic;
+}
+
+
+li{
+  display: inline;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: red;
+}
